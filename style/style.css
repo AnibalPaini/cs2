@@ -48,3 +48,40 @@ main h2{
 .grid .map img{
     width: 400px;
 }
+
+
+/*ESTILO MAPAS*/
+/*
+<main>
+<h2>MIRAGE</h2>
+<div class="grid--smokes">
+    <div class="conteiner--smoke">
+        <div class="info">
+            <p>TT MID BUDA</p>
+        </div>
+        <div class="video">
+            <video src="../src/vid/mirage/buda.mp4"></video>
+        </div>
+    </div>
+</div>
+</main>*/
+main h2{
+    font-size: 26px;
+}
+
+.grid--smokes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 40px 0 60px 0;
+}
+
+.grid--smokes .conteiner--smoke .info{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.grid--smokes .conteiner--smoke .video video{
+    width: 500px;
+}
